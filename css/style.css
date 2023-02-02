@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*-------Header-------*/
+
+.color-nav {
+    background-color: #f7ebd9;
+}
+
+
+.menu a {
+    transition: border-bottom 0.1s;
+}
+
+.menu a:hover {
+    border-bottom: 1.5px solid #000;
+}
+
+.menu li {
+    font-size: large;
+    font-weight: 800;
+}
+
+
+/*--------Main--------*/
+
+
+.section__hero {
+    background-image: url(../img/imagen-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.section__hero__h1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.div__titulo {
+    width: 100%;
+    height: 20vh;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.div__titulo__hr--left {
+    width: 33.3%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.div__titulo__hr--right {
+    width: 33.3%;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+.div__titulo__h2 {
+    width: 33.3%;
+    text-align: center;
+}
+
+.section__paquetes {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.section__paquetes__div {
+    position: relative;
+    border: solid white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section__paquetes__div h3 {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    transform: translateX(-50%);
+}
+
+.section__paquetes__div img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.section__paquetes__div img:hover {
+    transform: scale(1.04);
+}
+
+.section__paquetes__div__boton {
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    bottom: 10%;
+    left: 50%;
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    background-color: #ffffff90;
+    color: #000000; 
+    border-radius: 50px;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.section__paquetes__div__boton:hover {
+    background-color: lightblue;
+}
+
+.div__boton {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div__boton__boton-mas-paquetes {
+    width: 60%;
+    display: block;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    background-color: #ffffff90;
+    color: #000000; 
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    }
+
+.div__boton__boton-mas-paquetes:hover {
+        background-color: lightblue;
+}
+
+.div__boton__boton-mas-paquetes:active {
+        transform: scale(0.9);
+}
+
+.section__pagos img {
+    width: 120px;
+    height: 120px;
+    transition: transform 0.5s
+}
+
+.section__pagos div img:hover {
+    transform: scale(1.08);
+}
+
+.section__pagos__div__master img {
+    width: 120px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+
+.section__newsletter {
+    width: 100%;
+}
+
+.section__newsletter__p {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.section__newsletter__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__newsletter__formulario__email {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.section__newsletter__formulario__submit {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.section__newsletter__formulario__submit:hover {
+    background-color: #367f38;
+}
+
+.section__newsletter__formulario__submit:active {
+    transform: scale(0.9);
+}
+
+.boton-youtube{
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 5%;
+    right: 1%;
+    opacity: 0.7;
+    transition: transform 0.2s;
+} 
+
+.boton-youtube:hover {
+    transform: translateY(-5px);
+}
+
+.boton-instagram{
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 15%;
+    right: 1%;
+    opacity: 0.7;
+    transition: transform 0.2s;
+} 
+
+.boton-instagram:hover {
+    transform: translateY(-5px);
+}
+
+.boton-whatsapp{
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 25%;
+    right: 1%;
+    opacity: 0.7;
+    transition: transform 0.2s;
+} 
+
+.boton-whatsapp:hover {
+    transform: translateY(-5px);
+}
+
+
+/*-------Footer-------*/
+
+.pie-pagina {
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    font-size: small;
+}
+
+.footer__legales h6 {
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+
+.footer__legales ul {
+    list-style: none;
+    font-size: small;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 1%;
+}
+
+@media (max-width: 767px) {
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__contacto {
+        margin-top: 2%;
+    }
+}
+
+/*-------Contacto-------*/
+
+.div__contacto p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div__contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__contacto__formulario__text{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.div__contacto__formulario__textarea {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.div__contacto__formulario__submit {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.div__contacto__formulario__submit:hover {
+    background-color: #367f38;
+}
+
+.div__contacto__formulario__submit:active {
+    transform: scale(0.9);
+}
+
+.div__oficinas p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div__oficinas__mapa {
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.div__oficinas__mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .div__oficinas__mapa iframe {
+        margin-bottom: 35%;
+    }
+
+    .div__oficinas__mapa-iframe {
+        margin-bottom: 2%;
+    }
+}
+
+
+/*------Experiencia------*/
+
+
+
+/*-------Nosotros-------*/
+
+
+
+/*--------Paquetes--------*/
