@@ -37,8 +37,39 @@ a {
 
 /*--------Main--------*/
 
+.carousel {
+    height: 80vh;
+}
 
-.section__hero {
+.carousel-item {
+    height: 80vh;
+}
+
+.carousel-inner img {
+    height: 80vh;
+}
+
+.carousel-item h1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.carousel-item h2 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.carousel-item p {
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/* .section__hero {
     background-image: url(../img/imagen-hero.jpg);
     background-size: cover;
     background-position: center;
@@ -59,7 +90,7 @@ a {
     font-weight: bolder;
     font-size: xx-large;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+} */
 
 .div__titulo {
     width: 100%;
