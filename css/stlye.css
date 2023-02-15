@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;700&display=swap";
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .footer__logo {
     display: none;
   }
@@ -15,52 +15,7 @@
   .div__oficinas__mapa-iframe {
     margin-bottom: 2%;
   }
-  .nosotros__institucional__imagen {
-    order: 2;
-  }
-  .nosotros__institucional__texto {
-    order: 1;
-  }
 }
-.boton-youtube {
-  width: 45px;
-  height: 45px;
-  position: fixed;
-  bottom: 5%;
-  right: 1%;
-  opacity: 0.7;
-  transition: transform 0.2s;
-}
-.boton-youtube:hover {
-  transform: translateY(-5px);
-}
-
-.boton-instagram {
-  width: 45px;
-  height: 45px;
-  position: fixed;
-  bottom: 15%;
-  right: 1%;
-  opacity: 0.7;
-  transition: transform 0.2s;
-}
-.boton-instagram:hover {
-  transform: translateY(-5px);
-}
-
-.boton-whatsapp {
-  width: 45px;
-  height: 45px;
-  position: fixed;
-  bottom: 25%;
-  right: 1%;
-  opacity: 0.7;
-  transition: transform 0.2s;
-}
-.boton-whatsapp:hover {
-  transform: translateY(-5px);
-}
-
 .color-nav {
   background-color: #f7ebd9;
 }
@@ -301,6 +256,45 @@ a {
   transform: scale(0.9);
 }
 
+.boton-youtube {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 5%;
+  right: 1%;
+  opacity: 0.7;
+  transition: transform 0.2s;
+}
+.boton-youtube:hover {
+  transform: translateY(-5px);
+}
+
+.boton-instagram {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 15%;
+  right: 1%;
+  opacity: 0.7;
+  transition: transform 0.2s;
+}
+.boton-instagram:hover {
+  transform: translateY(-5px);
+}
+
+.boton-whatsapp {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 25%;
+  right: 1%;
+  opacity: 0.7;
+  transition: transform 0.2s;
+}
+.boton-whatsapp:hover {
+  transform: translateY(-5px);
+}
+
 .div__contacto p {
   text-align: center;
   margin-bottom: 20px;
@@ -356,42 +350,4 @@ a {
   height: 100%;
 }
 
-.nosotros__quienesSomos {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 5%;
-}
-.nosotros__quienesSomos h2 {
-  margin-bottom: 5%;
-}
-.nosotros__quienesSomos img {
-  width: 100%;
-}
-
-.nosotros__institucional {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 5%;
-}
-.nosotros__institucional h2 {
-  margin-bottom: 5%;
-}
-.nosotros__institucional img {
-  width: 100%;
-}
-
-.nosotros__viaja {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.nosotros__viaja h2 {
-  margin-bottom: 5%;
-}
-.nosotros__viaja img {
-  width: 100%;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stlye.css.map */

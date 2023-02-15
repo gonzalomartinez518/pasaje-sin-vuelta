@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;700&display=swap";
 @import "variables";
 @import "medias";
+@import "rrss";
 @import "header";
 @import "footer";
 
@@ -190,42 +191,6 @@ a {
 		transform: scale(0.9);
 	}
 }
-.boton-youtube {
-	width: 45px;
-	height: 45px;
-	position: fixed;
-	bottom: 5%;
-	right: 1%;
-	opacity: 0.7;
-	transition: transform 0.2s;
-	&:hover {
-		transform: translateY(-5px);
-	}
-}
-.boton-instagram {
-	width: 45px;
-	height: 45px;
-	position: fixed;
-	bottom: 15%;
-	right: 1%;
-	opacity: 0.7;
-	transition: transform 0.2s;
-	&:hover {
-		transform: translateY(-5px);
-	}
-}
-.boton-whatsapp {
-	width: 45px;
-	height: 45px;
-	position: fixed;
-	bottom: 25%;
-	right: 1%;
-	opacity: 0.7;
-	transition: transform 0.2s;
-	&:hover {
-		transform: translateY(-5px);
-	}
-}
 .div__contacto {
 	p {
 		text-align: center;
@@ -276,6 +241,50 @@ a {
 	iframe {
 		width: 100%;
 		height: 100%;
+	}
+}
+
+.nosotros__quienesSomos {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 5%;
+
+	h2 {
+		margin-bottom: 5%;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
+.nosotros__institucional {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 5%;
+
+	h2 {
+		margin-bottom: 5%;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
+.nosotros__viaja {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	h2 {
+		margin-bottom: 5%;
+	}
+
+	img {
+		width: 100%;
 	}
 }
 
