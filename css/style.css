@@ -317,6 +317,10 @@ a {
     .footer__contacto {
         margin-top: 2%;
     }
+
+    .navbar-brand {
+        width: 70%;
+    }
 }
 
 /*-------Contacto-------*/
