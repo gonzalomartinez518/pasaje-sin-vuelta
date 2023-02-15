@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+	.footer__logo {
+		display: none;
+	}
+	.footer__contacto {
+		margin-top: 2%;
+	}
+	.navbar-brand {
+		width: 70%;
+	}
+	.div__oficinas__mapa {
+		iframe {
+			margin-bottom: 35%;
+		}
+	}
+	.div__oficinas__mapa-iframe {
+		margin-bottom: 2%;
+	}
+}

@@ -1,0 +1,17 @@
+.color-nav {
+	background-color: $background-color_1;
+}
+
+.menu {
+	a {
+		transition: border-bottom 0.1s;
+		&:hover {
+			border-bottom: 1.5px solid #000;
+		}
+	}
+	li {
+		font-size: large;
+		font-weight: 800;
+
+	}
+}
