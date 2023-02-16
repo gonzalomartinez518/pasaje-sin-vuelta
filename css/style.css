@@ -1,27 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;700&display=swap";
-@media (max-width: 767px) {
-  .footer__logo {
-    display: none;
-  }
-  .footer__contacto {
-    margin-top: 2%;
-  }
-  .navbar-brand {
-    width: 70%;
-  }
-  .div__oficinas__mapa iframe {
-    margin-bottom: 35%;
-  }
-  .div__oficinas__mapa-iframe {
-    margin-bottom: 2%;
-  }
-  .nosotros__institucional__imagen {
-    order: 2;
-  }
-  .nosotros__institucional__texto {
-    order: 1;
-  }
-}
 .boton-youtube {
   width: 45px;
   height: 45px;
@@ -101,6 +78,50 @@
   margin-top: 1%;
 }
 
+@media (max-width: 767px) {
+  .footer__logo {
+    display: none;
+  }
+  .footer__contacto {
+    margin-top: 2%;
+  }
+  .navbar-brand {
+    width: 70%;
+  }
+  .div__oficinas__mapa iframe {
+    margin-bottom: 35%;
+  }
+  .div__oficinas__mapa-iframe {
+    margin-bottom: 2%;
+  }
+  .nosotros__institucional__imagen {
+    order: 2;
+  }
+  .nosotros__institucional__texto {
+    order: 1;
+  }
+}
+@media (min-width: 768px) {
+  .experiencia {
+    display: flex;
+  }
+  .experiencia .experiencia__texto {
+    width: 50%;
+  }
+  .experiencia .experiencia__imagenes {
+    width: 50%;
+  }
+  .experiencia2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .experiencia2 .experiencia__texto {
+    width: 50%;
+  }
+  .experiencia2 .experiencia__imagenes {
+    width: 50%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -361,6 +382,8 @@ a {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .nosotros__quienesSomos h2 {
   margin-bottom: 5%;
@@ -374,6 +397,8 @@ a {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .nosotros__institucional h2 {
   margin-bottom: 5%;
@@ -386,6 +411,8 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .nosotros__viaja h2 {
   margin-bottom: 5%;

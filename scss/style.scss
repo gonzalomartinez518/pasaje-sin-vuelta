@@ -1,9 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;700&display=swap";
 @import "variables";
-@import "medias";
 @import "rrss";
 @import "header";
 @import "footer";
+@import "medias";
 
 * {
 	margin: 0;
@@ -243,48 +243,44 @@ a {
 		height: 100%;
 	}
 }
-
 .nosotros__quienesSomos {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 5%;
-
+	margin-left: 2%;
+	margin-right: 2%;
 	h2 {
 		margin-bottom: 5%;
 	}
-
 	img {
 		width: 100%;
 	}
 }
-
 .nosotros__institucional {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 5%;
-
+	margin-left: 2%;
+	margin-right: 2%;
 	h2 {
 		margin-bottom: 5%;
 	}
-
 	img {
 		width: 100%;
 	}
 }
-
 .nosotros__viaja {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
+	margin-left: 2%;
+	margin-right: 2%;
 	h2 {
 		margin-bottom: 5%;
 	}
-
 	img {
 		width: 100%;
 	}
 }
-

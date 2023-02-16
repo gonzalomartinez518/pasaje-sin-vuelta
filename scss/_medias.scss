@@ -23,3 +23,25 @@
 		order: 1;
 	}
 }
+
+@media (min-width: 768px) {
+	.experiencia {
+		display: flex;
+		.experiencia__texto {
+			width: 50%;
+		}
+		.experiencia__imagenes {
+			width: 50%;
+		}
+	}	
+	.experiencia2 {
+		display: flex;
+		flex-direction: row-reverse;
+		.experiencia__texto {
+			width: 50%;
+		}
+		.experiencia__imagenes {
+			width: 50%;
+		}
+	}	
+}
